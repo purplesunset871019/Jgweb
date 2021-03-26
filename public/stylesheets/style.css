@@ -1,9 +1,24 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #DEDEDE;
+  background-color: #EDEDED;
   margin: 0px;
   padding: 0px;
 }
+
+/*全部都會用到的*/
+
+.prohibit_selection{
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+/*index*/
 
 .logo{
   width: 800px;
@@ -37,8 +52,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .navi_button{
-  margin: 0px;
-  padding: 0px;
+  padding: 0px 5px 0px 5px;
   height: 43px;
   float: left;
   line-height: 43px;
@@ -76,18 +90,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   color: white;
   font-size: 16px;
   margin: 0px 10px 0px 5px;
+  text-decoration: none;
 }
 
 .navi_button_dot{
-  margin: 0px;
   padding: 0px;
   height: 43px;
   float: left;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -o-user-select:none;
-  user-select:none;
-  margin-right: 5px;
+  margin:0px 5px 0px 5px;
 }
 
 .navi_dot{
@@ -105,9 +115,82 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .vacancy{
   width: 800px;
-  height: 42px;
+  height: 35px;
   margin: 0 auto;
   background:radial-gradient(ellipse 30% 30% at top,#3B3B3B 1%, #6E6E6E 30%,white 100%);
+}
+
+.index_commodity{
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  border: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+.co1{
+  background-image: url('../images/index_co1.png');
+  width: 372px;
+  height: 168px; 
+  margin-left: 20px;
+  position: relative;
+  float: left;
+}
+
+.co1_name{
+  position:absolute;
+  left: 18px;
+  bottom: 5px;
+  float: left;
+}
+
+.co1_name_text{
+  font-size: 16px;
+  color: white;
+}
+
+.co1_more{
+  position:absolute;
+  bottom:8px;
+  right: 25px;
+  float: left;
+}
+
+.co1_more_text{
+  color: #EDEDED;
+}
+
+.co2{
+  background-image: url('../images/index_co2.png');
+  width: 367px;
+  height: 168px; 
+  margin-left: 20px;
+  position: relative;
+  float: left;
+}
+
+.co2_name{
+  position:absolute;
+  left: 18px;
+  bottom: 5px;
+  float: left;
+}
+
+.co2_name_text{
+  font-size: 16px;
+  color: white;
+}
+
+.co2_more{
+  position:absolute;
+  bottom:8px;
+  right: 25px;
+  float: left;
+}
+
+.co2_more_text{
+  color: #EDEDED;
 }
 
 .Copyright {
