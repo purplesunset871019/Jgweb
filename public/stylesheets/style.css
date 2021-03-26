@@ -33,27 +33,81 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   width: 800px;
   height: 43px;
   background-color: black;
-}
-
-.navi_button{
-  display: inline-block;
-  margin: 0px 10px 0px 10px;
-}
-
-.navi_button_dot{
-  display: inline-block;
-  margin: 0px;
   padding: 0px;
 }
 
+.navi_button{
+  margin: 0px;
+  padding: 0px;
+  height: 43px;
+  float: left;
+  line-height: 43px;
+}
+
+.navi_click:hover{
+  background-color: #B20000;
+}
+
+.navi_left{ 
+  margin-left: 10px;
+}
+
+.navi_this{
+  background-color: #B20000;
+}
+
+.navi_home_mark{
+  height: 20px;
+  width: 19px;
+  float: left;
+  margin-left: 8px;
+}
+
+.home_mark{
+  margin-top: 11px;
+}
+
+.navi_home{
+  float: left;
+}
+
 .navi_text{
+  height: 143px;
   color: white;
   font-size: 16px;
+  margin: 0px 10px 0px 5px;
+}
+
+.navi_button_dot{
+  margin: 0px;
+  padding: 0px;
+  height: 43px;
+  float: left;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+  margin-right: 5px;
 }
 
 .navi_dot{
   color: white;
   font-size: 25px;
+}
+
+.index_image{ 
+  width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+  border: 0px;
+  line-height: 0px;
+}
+
+.vacancy{
+  width: 800px;
+  height: 42px;
+  margin: 0 auto;
+  background:radial-gradient(ellipse 30% 30% at top,#3B3B3B 1%, #6E6E6E 30%,white 100%);
 }
 
 .Copyright {
