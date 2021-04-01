@@ -236,7 +236,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   border-right: 7px #545454 solid;
   float: left;
   width: 233px;
-  background-image: linear-gradient(85deg ,#545454 , black);
+  background-image: linear-gradient(85deg , #5a5658 , black);
 }
 
 .news_tittle{
