@@ -18,7 +18,7 @@ body {
   cursor: pointer;
 }
 
-/*index*/
+/*tittle*/
 
 .index{
   width: 800px;
@@ -110,6 +110,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   color: white;
   font-size: 25px;
 }
+
+/*index*/
 
 .index_image{ 
   width: 800px;
@@ -267,6 +269,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   border-bottom: none;
   height: 63px;
 }
+
+/*product*/
+
+.pd_main{
+  height: 830px;
+}
+
+.pd_left{
+  width: 230px;
+  height: 700px;
+  background-color: #f2f2f2;
+  margin-top: 17px;
+}
+
+/*Copyright*/
 
 .Copyright {
   float: left;
