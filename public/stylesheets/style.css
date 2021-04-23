@@ -407,7 +407,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   color: white;
 }
 
-.product_right {
+.pro2_1_right {
   float: left;
   margin-top: 17px;
   padding-left: 15px;
@@ -484,7 +484,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /*pro2-2*/
 
+.HD_Witness_video{
+  background: linear-gradient(to top, #b90d17 27px,#f2f2f2 27px);
+}
 
+.pro2_2_right {
+  float: left;
+  margin-top: 17px;
+  padding-left: 15px;
+}
+
+.pro2_2_content{
+  margin: 20px 0px 10px 10px;
+}
+
+.product_button{
+  float: left;
+  margin-right: 40px;
+}
+
+.button_click{
+  border: 1px solid #75797e;
+  padding: 3px 5px 4px 5px;
+  background-color: #e8eef8;
+  box-shadow:6px 6px 0 0 #3f6eba;
+  transform-style: preserve-3d;
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+.button_click::before{
+  box-shadow:0px 10.75em 0 0 #3f6eba;
+  transform: translate3d(0, 0em, -1em);
+  transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+.button_click:hover {
+  transform: translate(0em, 0.35em);
+}
+
+.button_click:hover::before {
+  transform: translate3d(0, 0.75em, -1em);
+}
+
+.button_click:active {
+  transform: translate(0em, 0.55em);
+}
+
+.button_click:active::before {
+  transform: translate3d(0, 0, -1em);
+  box-shadow:0em 0.25em 0 0 #3f6eba;
+}
+
+.button_text{
+  font-size: 16px;
+  font-weight: bolder;
+}
 
 /*Copyright*/
 
