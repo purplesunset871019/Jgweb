@@ -10,6 +10,7 @@ var productRouter = require('./routes/product');
 var pro2_1Router = require('./routes/pro2-1');
 var pro2_2Router = require('./routes/pro2-2');
 var pro2_2_1Router = require('./routes/pro2-2-1');
+var pro2_2_2Router = require('./routes/pro2-2-2');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/product', productRouter);
 app.use('/pro2-1', pro2_1Router);
 app.use('/pro2-2', pro2_2Router);
 app.use('/pro2-2-1', pro2_2_1Router);
+app.use('/pro2-2-2', pro2_2_2Router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
