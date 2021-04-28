@@ -465,7 +465,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin: 10px 0px 0px 10px;
 }
 
-.pro2_1_content_text{
+.content_text{
   line-height: 22px;
   font-size: 13px;
 }
@@ -567,6 +567,32 @@ div.pro2_2_1_content > a {
 
 div.pro2_2_1_content > img {
   margin-bottom: 10px;
+}
+
+/*pro4-1*/
+
+.pro4_1_right {
+  float: left;
+  margin-top: 17px;
+  padding-left: 15px;
+}
+
+.pro4_1_tittle{
+  padding: 15px 0px 5px 15px;
+}
+
+.pro4_1_tittle_text{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.pro4_1_content{
+  width: 500px;
+  margin: 10px 0px 0px 10px;
+}
+
+.pro4_1_content > img{
+  margin: 5px 0px 0px -10px;
 }
 
 /*Copyright*/
