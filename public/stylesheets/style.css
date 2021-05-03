@@ -377,7 +377,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .sign_4{
-  margin: 5px 0px 5px 5px;
+  margin: 2px 0px 2px 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   list-style:none;
   line-height: 23px;
   color: black;
@@ -454,12 +456,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   font-weight: 500;
 }
 
-.ch_tittle_text{
-  font-size: 16px;
-  color: #b93137;
-  font-weight: 500;
-}
-
 .pro2_1_content{
   width: 500px;
   margin: 10px 0px 0px 10px;
@@ -468,6 +464,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .content_text{
   line-height: 22px;
   font-size: 13px;
+}
+
+.pro2_1_download{
+  margin-left: 10px;
+}
+
+.ch_tittle_text{
+  font-size: 16px;
+  color: #b93137;
+  font-weight: 500;
+}
+
+.pro2_1_download_content{
+  margin-left: 10px;
 }
 
 .DM{
@@ -571,6 +581,10 @@ div.pro2_2_1_content > img {
 
 /*pro4-1*/
 
+.POE_1{
+  background: linear-gradient(to bottom, #b90d17 25px,#f2f2f2 25px);
+}
+
 .pro4_1_right {
   float: left;
   margin-top: 17px;
@@ -593,6 +607,14 @@ div.pro2_2_1_content > img {
 
 .pro4_1_content > img{
   margin: 5px 0px 0px -10px;
+}
+
+.pro4_1_download{
+  margin: 30px 0px 0px 10px;
+}
+
+.pro4_1_download_content{
+  margin-left: 10px;
 }
 
 /*Copyright*/
