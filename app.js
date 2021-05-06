@@ -14,6 +14,12 @@ var pro2_2_2Router = require('./routes/pro2-2-2');
 var pro4_1Router = require('./routes/pro4-1');
 var pro4_2Router = require('./routes/pro4-2');
 var caseRouter = require('./routes/case');
+var case01Router = require('./routes/case01');
+var case02Router = require('./routes/case02');
+var case03Router = require('./routes/case03');
+var case04Router = require('./routes/case04');
+var case05Router = require('./routes/case05');
+var case06Router = require('./routes/case06');
 
 var app = express();
 
@@ -37,6 +43,12 @@ app.use('/pro2-2-2', pro2_2_2Router);
 app.use('/pro4-1', pro4_1Router);
 app.use('/pro4-2', pro4_2Router);
 app.use('/case', caseRouter);
+app.use('/case01', case01Router);
+app.use('/case02', case02Router);
+app.use('/case03', case03Router);
+app.use('/case04', case04Router);
+app.use('/case05', case05Router);
+app.use('/case06', case06Router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

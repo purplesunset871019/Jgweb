@@ -361,7 +361,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .sign_li_2_text{
-  color: #5c5c5c;
+  color: #5c5c5c !important;
   font-size: 13px;
 }
 
