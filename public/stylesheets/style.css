@@ -834,6 +834,29 @@ div.pro2_2_1_content > img {
   background: linear-gradient(to bottom,#f2f2f2 148px,#b90d17 148px, #b90d17 173px,#f2f2f2 173px);
 }
 
+/*case06*/
+
+.cs06_story_img{
+  height: 220px;
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 25px 0 20px 5px;
+}
+
+.cs06_story_img > img{
+  margin: 0px 5px 3px 0px;
+}
+
+.cs06_story_img > img:first-child{
+  margin-bottom: 4px;
+}
+
+.this_case06{
+  background: linear-gradient(to bottom,#f2f2f2 173px,#b90d17 173px, #b90d17 198px,#f2f2f2 198px);
+}
+
 /*Copyright*/
 
 .Copyright {
