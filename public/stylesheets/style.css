@@ -731,7 +731,7 @@ div.pro2_2_1_content > img {
 }
 
 .case_story{
-  margin: 25px 0px 0px 5px;
+  margin: 25px 0px 0px 7px;
 }
 
 .cs01_story_img{
@@ -797,8 +797,22 @@ div.pro2_2_1_content > img {
   margin-bottom: 4px;
 }
 
-.this_case02{
+.this_case03{
   background: linear-gradient(to bottom,#f2f2f2 98px,#b90d17 98px, #b90d17 123px,#f2f2f2 123px);
+}
+
+/*case04*/
+
+.cs04_story_img{
+  margin: 30px 0 20px 3px;
+}
+
+.this_case04{
+  background: linear-gradient(to bottom,#f2f2f2 73px,#b90d17 73px, #b90d17 98px,#f2f2f2 98px);
+}
+
+.this_case04{
+  background: linear-gradient(to bottom,#f2f2f2 123px,#b90d17 123px, #b90d17 148px,#f2f2f2 148px);
 }
 
 /*Copyright*/
