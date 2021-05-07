@@ -747,7 +747,7 @@ div.pro2_2_1_content > img {
 }
 
 .cs_story_ct{
-  width: 508px;
+  width: 503px;
   margin-top: 10px;
 }
 
@@ -758,13 +758,23 @@ div.pro2_2_1_content > img {
 }
 
 .cs_story_ct > p{
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   margin-top: 10px;
 }
 
 .cs_story_ct > p > a{
   font-size: 13px;
-  line-height: 20px;
+  line-height: 25px;
+}
+
+/*case02*/
+
+.cs02_story_img{
+  margin: 30px 0 20px 40px;
+}
+
+.this_case02{
+  background: linear-gradient(to bottom,#f2f2f2 73px,#b90d17 73px, #b90d17 98px,#f2f2f2 98px);
 }
 
 /*Copyright*/
