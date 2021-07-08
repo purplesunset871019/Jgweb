@@ -20,6 +20,7 @@ var case03Router = require('./routes/case03');
 var case04Router = require('./routes/case04');
 var case05Router = require('./routes/case05');
 var case06Router = require('./routes/case06');
+var contactRouter = require('./routes/contact');
 
 var app = express();
 
@@ -49,6 +50,7 @@ app.use('/case03', case03Router);
 app.use('/case04', case04Router);
 app.use('/case05', case05Router);
 app.use('/case06', case06Router);
+app.use('/contact', contactRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
